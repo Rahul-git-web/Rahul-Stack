@@ -52,8 +52,8 @@ Designed to reflect professional frontend standards with smooth layouts, respons
 - Performance-optimized build via Vite
 - Semantic HTML structure for accessibility
 
----
 
-## 📂 Project Structure
+
+
 
 
