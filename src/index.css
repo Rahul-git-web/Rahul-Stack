@@ -4,3 +4,15 @@ html {
   scroll-behavior: smooth;
 }
 
+@keyframes pulseSlow {
+  0%, 100% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 6s ease-in-out infinite;
+}

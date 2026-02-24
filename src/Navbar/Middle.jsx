@@ -17,9 +17,9 @@ const Middle = () => {
       <div className="relative z-10 flex flex-col md:flex-row items-center justify-between w-full max-w-6xl gap-12">
         {/* Left Section */}
         <div className="order-2 md:order-1 text-center md:text-left">
-          <h2 className="text-4xl md:text-6xl font-bold mb-4">Hi, I'm Rahul</h2>
+          <h2 className="text-4xl md:text-6xl font-bold mb-4 inline-block text-amber-400 transition-all duration-500 hover:scale-105">Hi, I'm Rahul</h2>
 
-          <p className="text-xl md:text-2xl text-gray-300 mb-6">
+          <p className="text-xl md:text-2xl text-gray-300 mb-6 transition-all duration-300 hover:scale-90">
             Full Stack Developer
           </p>
 
@@ -28,7 +28,7 @@ const Middle = () => {
             my skills to stay relevant and build future-ready applications.
           </p>
 
-          <button className="group px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg transition-all duration-300 flex items-center justify-center md:justify-start gap-2 shadow-lg hover:shadow-purple-500/50 mx-auto md:mx-0">
+          <button className="group px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg transition-all duration-300 hover:scale-100 flex items-center justify-center md:justify-start gap-2 shadow-lg hover:shadow-purple-500/50 mx-auto md:mx-0">
             Explore More
             <ArrowUpRight
               size={18}
